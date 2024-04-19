@@ -28,3 +28,11 @@ const excelSheet =["ade", "james", "john", "jane", "mary"]
 const hatchDevClass = new HatchDevClass(excelSheet)
 
 console.log(hatchDevClass.getStudentsNames())
+
+
+ 
+// Assignment
+// how does the browser work
+// how does google search work
+// read up on access modifiers in oop
+// why is bracket notetion exposing private propereties unlike dot notation
