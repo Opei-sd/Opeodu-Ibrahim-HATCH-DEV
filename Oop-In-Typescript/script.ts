@@ -36,3 +36,5 @@ console.log(hatchDevClass.getStudentsNames())
 // how does google search work
 // read up on access modifiers in oop
 // why is bracket notetion exposing private propereties unlike dot notation
+// static method static properties instance method instance properties
+

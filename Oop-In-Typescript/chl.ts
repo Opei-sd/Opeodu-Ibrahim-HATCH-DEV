@@ -1,7 +1,9 @@
 const chl= ["arsenal", "bayern", "real-madrid", "man-city"];
 const disPeople: string[] = []
 
+// declarative
 
+// imperative
 for(let i = 0; i < chl.length; i++){
   const club = chl[i]
   if (club == "arsenal" || club == "man-city") {
