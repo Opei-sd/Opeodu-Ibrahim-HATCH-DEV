@@ -38,3 +38,5 @@ console.log(hatchDevClass.getStudentsNames())
 // why is bracket notetion exposing private propereties unlike dot notation
 // static method static properties instance method instance properties
 
+
+
