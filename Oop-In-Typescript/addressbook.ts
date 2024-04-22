@@ -9,7 +9,7 @@ class Contact {
     this.address = address;
   }
 
-  getName(): string {
+  getName(): string {            
     return this.name;
   }
 
