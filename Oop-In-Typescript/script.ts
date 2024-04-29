@@ -39,4 +39,3 @@ console.log(hatchDevClass.getStudentsNames())
 // static method static properties instance method instance properties
 
 
-
