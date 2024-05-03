@@ -89,8 +89,8 @@ class OnlineShoppingApp {
   }
 }
 
-// Example usage:
-const customer = new Customer("John Doe", "john@example.com");
+// Example:
+const customer = new Customer("Opei sd", "opeisd@gmail.com");
 const app = new OnlineShoppingApp(customer);
 
 const phone: ElectronicProduct = {
