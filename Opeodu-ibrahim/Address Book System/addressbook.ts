@@ -40,7 +40,7 @@ class BusinessContact extends Contact {
   }
 }
 
-// Usage example
+
 const contact1 = new Contact("Opei sd", "0901234567", "888 Akoka st");
 console.log("Name: ", contact1.getName()); // Output: Opei sd
 console.log("Phone Number: ", contact1.getPhoneNumber()); // Output: 0901234567

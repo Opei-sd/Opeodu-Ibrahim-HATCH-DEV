@@ -233,10 +233,10 @@ class Laptop {
   }
 }
 
-// Define a union type for components that can be updated
+
 type UpdatableComponent = "screen" | "nic" | "hardDisk" | "keyboard";
 
-// Create components
+
 const display = new Display();
 display.size = 15.6;
 display.type = "lcd";
@@ -249,16 +249,16 @@ hd.size = 512;
 
 const keyboard1 = new KeyBoard("in-built");
 
-// Create a laptop instance
+
 const myLaptop = new Laptop(
-  "x64", // bit
+  "x64", 
   display,
   nic,
   hd,
-  [keyboard1] // keyBoards
+  [keyboard1] 
 );
 
-// Using laptop methods
+
 myLaptop.switchOn();
 myLaptop.update("screen", 2);
 myLaptop.update("nic", 2);
