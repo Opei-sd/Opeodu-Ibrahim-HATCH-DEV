@@ -96,6 +96,10 @@
 // nitLap.switchOn();
 // console.log(nitLap);
 
+
+// My code using Faizal's update method as a reference
+
+
 type BitKind = "x64" | "x32" | "x86";
 
 class Display {
@@ -229,7 +233,6 @@ class Laptop {
 // Define a union type for components that can be updated
 type UpdatableComponent = "screen" | "nic" | "hardDisk" | "keyboard";
 
-
 // Create components
 const display = new Display();
 display.size = 15.6;
@@ -260,3 +263,5 @@ myLaptop.update("hardDisk", 2);
 myLaptop.update("keyboard", 2);
 myLaptop.displayUpdatedComponents();
 myLaptop.shutDown();
+
+
