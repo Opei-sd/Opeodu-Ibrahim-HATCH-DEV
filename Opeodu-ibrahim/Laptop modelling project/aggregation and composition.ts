@@ -1,3 +1,4 @@
+
 // class Laptop {
 //   keyboard: KeyBoard[] = [];
 //   nic: NetworkInterfaceCard;
@@ -55,6 +56,7 @@
 
 //   setDisplayType(type: DisplayType) {
 //     this.type = type;
+
 //   }
 // }
 
@@ -97,8 +99,9 @@
 // console.log(nitLap);
 
 
-// My code using Faizal's update method as a reference
 
+
+// My code using Faizal's update method as a reference
 
 type BitKind = "x64" | "x32" | "x86";
 
@@ -263,5 +266,3 @@ myLaptop.update("hardDisk", 2);
 myLaptop.update("keyboard", 2);
 myLaptop.displayUpdatedComponents();
 myLaptop.shutDown();
-
-
