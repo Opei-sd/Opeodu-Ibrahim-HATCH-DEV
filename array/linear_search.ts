@@ -1,5 +1,5 @@
 const scores = [88,75,40,60,90]
-const targer = 90
+const target = 100
 
 
 function linearSearch(input: number[], target: number): number {
@@ -11,3 +11,6 @@ function linearSearch(input: number[], target: number): number {
   }
   return -1
 }
+
+const idx = linearSearch(scores, target)
+console.log(idx)
